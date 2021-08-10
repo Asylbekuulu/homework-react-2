@@ -1,0 +1,25 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 1px dashed violet;
+    width: 300px;
+    padding-right: 50px;
+    height: 50px;
+
+}
+.text{
+    margin-left: 30px;
+    color: violet;
+    list-style: square ;
+}
+.block{
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    background: beige;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 20px;
+}

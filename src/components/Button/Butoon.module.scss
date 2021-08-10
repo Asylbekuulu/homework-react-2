@@ -1,0 +1,15 @@
+@mixin btn-style($property){
+    width: $property;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+.button{
+    @include btn-style(200px);
+    background: mediumaquamarine;
+    border: 1px solid aqua;
+    padding: 5px;
+}
