@@ -8,7 +8,7 @@ const Experience = (props) => {
         skills
     } = props;
     return (
-        <section className={style.block}>
+        <div className={style.block}>
             <h2>Job experience</h2>
             <p>Last workplace: {lastWorkPlace}</p>
             <p>Experience in (years): {experience}</p>
@@ -19,7 +19,7 @@ const Experience = (props) => {
                 })
             }
             </ul>
-        </section>
+        </div>
     )
 }
 export default Experience;

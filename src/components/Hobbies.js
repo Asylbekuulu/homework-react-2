@@ -5,7 +5,7 @@ const Hobbies = (props) => {
         hobbies
     } = props;
     return(
-        <section className={style.block}>
+        <div className={style.block}>
             <h2>My hobbies</h2>
             <ul className={style.skills}>{
             hobbies.map(item => {
@@ -13,7 +13,7 @@ const Hobbies = (props) => {
             })
             }
             </ul>
-        </section>
+        </div>
     )
 }
 export default Hobbies;

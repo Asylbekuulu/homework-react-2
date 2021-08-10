@@ -35,7 +35,7 @@ function App() {
   }
 
   const data =  (
-    <div className="App">
+    <main className="App">
       <nav>
         <ul>
           <li><a href="">About</a></li>
@@ -60,7 +60,7 @@ function App() {
       <p>Desired Compensation: {compensation}$ (Hourly rate: {hourlyRate()}$)</p>
     </div>
     <Button/>
-    </div>
+    </main>
   );
   return data;
 }
