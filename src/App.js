@@ -29,6 +29,11 @@ function App() {
     return Number(years[1]) - Number(years[0])
   }
 
+  let compensation = 1000;
+  function hourlyRate() {
+    return compensation / 160
+  }
+
   const data =  (
     <div className="App">
       <nav>
@@ -51,6 +56,9 @@ function App() {
               skills={personalData.skills}/>
     <Hobbies
               hobbies={personalData.hobbies}/>
+    <div className ="block">
+      <p>Desired Compensation: {compensation}$ (Hourly rate: {hourlyRate()}$)</p>
+    </div>
     <Button/>
     </div>
   );
